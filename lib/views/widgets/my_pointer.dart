@@ -20,6 +20,7 @@ class MyPointer extends CustomPainter {
     canvas.drawCircle(Offset(size.width / 2, size.height / 2), 150, fillCircle);
     final hourArrow = Paint();
     hourArrow.color = Colors.pink;
+    hourArrow.strokeCap = StrokeCap.round;
     hourArrow.style = PaintingStyle.stroke;
     hourArrow.strokeWidth = 15;
 
@@ -31,6 +32,7 @@ class MyPointer extends CustomPainter {
 
     final minutArrow = Paint();
     minutArrow.color = Colors.blue;
+    minutArrow.strokeCap = StrokeCap.round;
     minutArrow.style = PaintingStyle.stroke;
     minutArrow.strokeWidth = 10;
 
@@ -43,6 +45,7 @@ class MyPointer extends CustomPainter {
 
     final secondArrow = Paint();
     secondArrow.color = Colors.yellow;
+    secondArrow.strokeCap = StrokeCap.round;
     secondArrow.style = PaintingStyle.stroke;
     secondArrow.strokeWidth = 5;
 
