@@ -1,4 +1,4 @@
-import 'package:custompaint/views/screens/clock_screen.dart';
+import 'package:custompaint/views/screens/tasks_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ClockScreen());
+    return const MaterialApp(home: TasksScreen());
   }
 }
